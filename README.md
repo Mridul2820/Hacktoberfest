@@ -3,21 +3,19 @@
     <h1>Hacktoberfest Accepted</h1>
 </div>
 <p align="center">
-    <img src="/assets/banner.jpg" align="center" width="80"/>
+    <img src="/assets/banner.jpg" align="center" />
 </p>
 
 <br />
 
-<div align="center">
-    <p>Quick Links</p>
-    <br />
-    <a href="CONTRIBUTING.md">Contributing Guide</a> •
-    <a href="https://github.com/Mridul2820/Hacktoberfest2022/issues">Issues</a> •
-    <a href="https://github.com/Mridul2820/Hacktoberfest2022/pulls">Pull Requests</a>
-</div>
+## Quick Links
+| <a href="CONTRIBUTING.md">Contributing Guide</a> | <a href="https://github.com/Mridul2820/Hacktoberfest2022/issues">Issues</a> | <a href="https://github.com/Mridul2820/Hacktoberfest2022/pulls">Pull Requests</a> |
+| ---- | ---- | ----- |
 
-<br />
-<br />
+## Projects Folders
+| [HTML](/projects/html/README.md) | [CSS](/projects/css/README.md) | [Javascript](/projects/javascript/README.md) | [React JS](/projects/react-js/README.md) | [Next JS](/projects/next-js/README.md) | [Python](/projects/python/README.md) |
+| ---- | ---- | ----- | ---- | ----- | ---- |
+
 
 # Contribution rules📚:
 - The project must work when opening the demo link
@@ -28,8 +26,9 @@
 - Try to keep pull requests small to minimize merge conflicts
 
 ## How to contribute? 💻
+| <a href="CONTRIBUTING.md">Contributing Guide</a> |
+| ----- |
 
-<a href="CONTRIBUTING.md">Contributing Guide</a>
 
 
 # Table of Contents 📜
