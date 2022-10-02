@@ -32,4 +32,40 @@
 <a href="CONTRIBUTING.md">Contributing Guide</a>
 
 
+# Table of Contents 📜
+
+- [HTML](#html)
+- [CSS](#css)
+- [JavaScript](#javascript)
+- [Python](#python)
+- [React JS](#react-js)
+- [Next JS](#next-js)
+
+## HTML
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
+
+## CSS
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
+
+## JavaScript
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
+| Fireworks | [Demo](https://mridul2820.github.io/CSS-Vanila-JS-Projects/Vanila-JS/fireworks/fire.html) | [Source Code](/projects/javascript/fireworks) | [Mridul2820](https://github.com/Mridul2820)|
+
+
+
+
+## Python
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
+
+## React JS
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
+
+## Next JS
+| Project Name | Demo Link | Source Code | Author |
+| --- | --- | --- | --- |
 

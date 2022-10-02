@@ -1,4 +1,4 @@
-## Getting Started 🤩🤗:
+## Getting Started 🤩:
 
 - Fork this repo (button on top)
 - Clone on your local machine
