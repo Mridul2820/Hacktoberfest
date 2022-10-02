@@ -1,4 +1,4 @@
 # Hacktoberfest Accepted
-## React JS Projects
+## Javascript Projects
 
 <img src="/assets/banner.jpg" align="center" />

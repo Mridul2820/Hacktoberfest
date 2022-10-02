@@ -1,8 +1,5 @@
 
-<div align="center">
-    # Hacktoberfest Accepted
-    ## CSS Projects
-</div>
-<p align="center">
-    <img src="/assets/banner.jpg" align="center" width="80"/>
-</p>
+# Hacktoberfest Accepted
+## CSS Projects
+
+<img src="/assets/banner.jpg" align="center" />
