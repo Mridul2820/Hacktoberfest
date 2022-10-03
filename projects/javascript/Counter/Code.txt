@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Using Javascript</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 1rem;
+            font-size: 5rem;
+            width: 5rem;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 0 10px 2px #BBBBBB;
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        button:active {
+            transform: scale(0.9);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        #count {
+            width: 15rem;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3rem;
+            font-size: 10rem;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        #increment {
+            background-color: #68E52D;
+        }
+        
+        #decrement {
+            background-color: #FF522D;
+        }
+
+        #reset {
+            font-size: 1.5rem;
+            height: 2.5rem;
+            width: 10rem;
+            background-color: #FFE600;
+        }
+
+        @media screen and (max-width: 500px) {
+            button {
+                height: 2rem;
+                width: 2rem;
+                font-size: 2rem;
+                border-radius: 5px;
+            }
+            #count {
+                margin: 1rem;
+                font-size: 3rem;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 5px;
+            }
+            #reset {
+                font-size: 0.7rem;
+            height: 1.5rem;
+            width: 5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <button id="increment">+</button>
+            <div id="count">0</div>
+            <button id="decrement">-</button>
+        </div>
+        <button id="reset">RESET</button>
+    </div>
+</body>
+<script>
+    document.getElementById('increment').addEventListener('click', () => {
+        document.getElementById('count').innerText++;
+    });
+    document.getElementById('decrement').addEventListener('click', () => {
+        document.getElementById('count').innerText--;
+    });
+    document.getElementById('reset').addEventListener('click', () => {
+        document.getElementById('count').innerText = 0;
+    });
+</script>
+
+</html>
