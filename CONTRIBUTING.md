@@ -19,6 +19,7 @@ git checkout -b my-new-branch
 ```
 - Add your contribution to the respective tech folder 
 - Add Your Peoject Details in the `README.md` in the tech section
+### Example Readme Details
 ```
 | Fireworks | [Demo](https://mridul2820.github.io/CSS-Vanila-JS-Projects/Vanila-JS/fireworks/fire.html) | [Source Code](/projects/javascript/fireworks) | [Mridul2820](https://github.com/Mridul2820)|
 ```
