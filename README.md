@@ -55,7 +55,7 @@
 ## JavaScript
 
 | Project Name  | Demo Link                                                                                 | Source Code                                        | Author                                                |
-| ------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------- |
+|Calculator | [Demo](https://zvhrascalculator.netlify.app/) | [Source Code](projects/javascript/calculator) | [Fatima-Oluwalogbon](https://github.com/Fv-tima) |
 | Counter App   | [Demo](https://dipendra-raghav.github.io/counter/)                                        | [Source Code](/projects/javascript/Counter)        | [Dipendra-Raghav](https://github.com/Dipendra-Raghav) |
 | Fireworks     | [Demo](https://mridul2820.github.io/CSS-Vanila-JS-Projects/Vanila-JS/fireworks/fire.html) | [Source Code](/projects/javascript/fireworks)      | [Mridul2820](https://github.com/Mridul2820)           |
 | Drum kit      | [Demo](https://prnvtripathi.github.io/drum-kit/)                                          | [Source Code](/projects/javascript/Drum-Set)       | [Pranav Tripathi](https://github.com/prnvtripathi)    |
