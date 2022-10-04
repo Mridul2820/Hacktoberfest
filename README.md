@@ -60,4 +60,4 @@
 | Drum kit      | [Demo](https://prnvtripathi.github.io/drum-kit/)                                          | [Source Code](/projects/javascript/Drum-Set)       | [Pranav Tripathi](https://github.com/prnvtripathi)    |
 | Digital Clock | [Demo](https://Harry-dotc.github.io/digital-clock/)                                       | [Source Code](/projects/javascript/digital-clock/) | [Hardik Agarwal](https://github.com/Harry-dotc)       |
 | Weather App   | [Demo](https://adityeah2k.github.io/yet-another-weather-app/)                             | [Source Code](/projects/javascript/weather-app)    | [adityeah2k](https://github.com/adityeah2k)           |
-| Tic Tac Toe Game   | [Demo](https://imnitesh21.github.io/Tic-Tac-Toe-/)                             | [Source Code](/projects/javascript/Tic-Tac-Toe Game)    | [Imnitesh21](https://github.com/Imnitesh21)           |
+| Tic Tac Toe Game   | [Demo](https://imnitesh21.github.io/Tic-Tac-Toe-/)                                   | [Source Code](/projects/javascript/Tic-Tac-Toe Game/)    | [Imnitesh21](https://github.com/Imnitesh21)           |
