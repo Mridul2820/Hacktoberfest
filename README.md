@@ -14,7 +14,7 @@
 
 ## Projects Folders
 
-| [HTML](/projects/html/README.md) | [CSS](/projects/css/README.md) | [Javascript](/projects/javascript/README.md) |
+| [HTML](/projects/html) | [CSS](/projects/css) | [Javascript](/projects/javascript) |
 | -------------------------------- | ------------------------------ | -------------------------------------------- |
 
 # Contribution rules📚:
