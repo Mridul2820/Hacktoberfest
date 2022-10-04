@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Medicine Reminder</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Medicine.css" />
+
+    </head>
+
+    <body>
+
+        <div class="head">
+
+            <span id="doc">👨‍⚕</span>
+
+            <span class="text">Medicine Reminder</span>
+
+        </div>
+
+        
+
+        <div id="main">
+
+        <div id="clock" align="center">
+
+            <span id="hour"></span>:
+
+            <span id="min"></span>:
+
+            <span id="sec"></span>
+
+            <span id="am"></span>
+
+        </div>
+
+        
+
+        <div class="input-data" align="left">
+
+            Set the time of your medicine : <br /> 
+
+            <input id="time" type="time"/><br /><br />
+
+            <input id="med-name" placeholder="Medicine Name" /><br /><br />
+
+            <textarea id="detail" placeholder="Any Extra Message related to your medicine . eg - 2pills , 1spoon , take 2 pills after meal...."></textarea><br />
+
+        </div>
+
+        <div align="center">
+
+            <button id="button">Set Reminder</button>
+
+        </div>
+
+        <br />
+
+        <hr />
+
+        </div>
+
+        
+
+        <div id="all-items">
+
+        </div>
+        <script src="Medicine.js"></script>
+
+    </body>
+
+</html>
