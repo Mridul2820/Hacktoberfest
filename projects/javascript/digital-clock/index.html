@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Awesome Clock</title>
+    <style>
+        .parent {
+            background-color: rgb(17, 17, 17);
+            color: aliceblue;
+            display: block;
+            width: 50%;
+            font-size: 350%;
+            padding: auto;
+            font-family: 'Orbitron', sans-serif;
+            border: solid black 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 20px 20px 15px rgb(128, 128, 128);
+            margin-top: 4%;
+            margin-left: 20%;
+        }
+
+        body {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="logic.js"></script>
+    <div class="parent">
+        <div id="greet"></div>
+        <hr>
+        <div id="time"></div>
+        <hr>
+        <div id="day"></div>
+        <hr>
+        <div id="date"></div>
+    </div>
+</body>
+<script>
+    setInterval(timeCalc, 1000);
+    function timeCalc() {
+        let clock = new Date();
+        let hour = clock.getHours();
+        let min = clock.getMinutes();
+        let sec = clock.getSeconds();
+        const options = { weekday: 'long' };
+        let day1 = new Intl.DateTimeFormat('en-US', options).format(clock);
+        let date = clock.getDate();
+        const options2 = { month: 'long' };
+        let month = new Intl.DateTimeFormat('en-US', options2).format(clock);
+        let year = clock.getFullYear();
+        greet1 = " ";
+        if (hour < 12) {
+            greet1 = "Good Morning";
+        }
+        if (hour > 12 && hour < 16) {
+            greet1 = "Good Afternoon";
+        }
+        if (hour > 16) {
+            greet1 = "Good Evening";
+        }
+        let updatedTime = hour + ":" + min + ":" + sec;
+        document.getElementById("time")
+            .innerHTML = updatedTime;
+        let updatedDay = day1;
+        document.getElementById("day")
+            .innerHTML = updatedDay;
+        let updatedDate = month + "   " + date + "  " + year;
+        document.getElementById("date")
+            .innerHTML = updatedDate;
+        document.getElementById("greet")
+            .innerHTML = greet1;
+    }
+</script>
+
+</html>
