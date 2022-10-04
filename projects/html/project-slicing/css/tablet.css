@@ -1,0 +1,100 @@
+@media (max-width: 991.98px) {
+  html {
+    overflow-x: hidden !important;
+  }
+  /* nav */
+  nav .container {
+    justify-content: space-between !important;
+  }
+  .nav-toggle {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(231, 246, 255, 0.9);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: 0.3s ease all;
+  }
+
+  .nav-open {
+    transform: translateX(0%) !important;
+  }
+
+  .toggler {
+    font-size: 2.6em;
+    color: rgb(100, 90, 90);
+  }
+
+  .toggler:active {
+    color: #370abe;
+  }
+
+  .nav-toggle ul {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2.2em;
+    font-weight: 500;
+  }
+
+  .nav-toggle ul a.btn {
+    padding: 10px !important;
+    font-size: 0.7em !important;
+    border-radius: 10px !important;
+  }
+
+  .nav-toggle ul .bi-x {
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .nav-toggle ul .bi-x:active {
+    color: rgb(172, 8, 8);
+  }
+
+  .navbar-toggler {
+    z-index: 99999;
+  }
+
+  .toggler {
+    display: inline-block;
+  }
+
+  .bi-x {
+    display: inline-block;
+  }
+
+  /* end nav */
+  /* enterprice */
+  .bg-union {
+    display: none;
+  }
+  /* end enterprice */
+  /* packages */
+  .pack {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  /* end packages */
+
+  /* term */
+  .Term {
+    height: 100%;
+  }
+
+  .Term .row-50:last-child {
+    height: 75%;
+  }
+  /* end term */
+
+  .foot {
+    /* padding-bottom: unset !important; */
+    padding-bottom: 12vh !important;
+  }
+}

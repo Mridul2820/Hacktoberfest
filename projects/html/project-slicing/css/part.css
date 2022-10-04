@@ -1,0 +1,22 @@
+/* color */
+.text-blue {
+  color: #150544;
+}
+
+.bg-blue {
+  background: #150544;
+}
+
+.border-blue {
+  border: 2px solid #150544;
+}
+
+.text-purple {
+  color: #6552ff;
+}
+
+.bg-purple {
+  background-color: #6552ff;
+}
+
+/* navbar */

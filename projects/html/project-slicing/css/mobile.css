@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .nav-toggle ul {
+    font-size: 1.5em;
+  }
+
+  .nav-toggle ul a.btn {
+    padding: 8px !important;
+    border-radius: 8px !important;
+  }
+
+  .toggler {
+    font-size: 1.5em;
+    margin-top: none;
+  }
+
+  .features {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .out-pack {
+    width: min-content;
+  }
+
+  .Term {
+    height: 100% !important;
+  }
+
+  .Term .row-50:last-child {
+    height: 80%;
+  }
+
+  .foot {
+    padding-bottom: 7vh !important;
+  }
+}
