@@ -49,6 +49,7 @@
 
 | Project Name | Demo Link | Source Code | Author |
 | ------------ | --------- | ----------- | ------ |
+| Fullpage Acrolling | [Demo](https://mridul2820.github.io/css-js/CSS-Projects/fullpage-scrolling/index.html) | [Source Code](/projects/css/fullpage-scrolling)      | [Mridul2820](https://github.com/Mridul2820)           |
 
 ## JavaScript
 
