@@ -1,0 +1,127 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+/* end -- */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+/* !navbar */
+.nav-link {
+  font-size: 0.9em;
+}
+
+.nav-link.btn {
+  margin-left: 0.5em;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.nav-link.btn:hover {
+  background-color: rgb(141, 135, 168);
+}
+/* end navbar */
+
+/* !Enterprise */
+.Enterprise {
+  margin-top: 10vh;
+}
+
+.bg-union {
+  z-index: -999;
+}
+
+.Enterprise .header p {
+  font-size: 0.9em;
+}
+
+.img-feature {
+  background: #614ef5;
+}
+
+.text-feature {
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.text-feature h6 {
+  font-weight: 500 !important;
+}
+
+.toggler {
+  display: none;
+}
+
+.bi-x {
+  display: none;
+}
+
+/* !packages */
+.Packages {
+  margin-top: 15vh;
+}
+
+.header-packages {
+  margin-bottom: 7vh;
+}
+
+.header-packages p {
+  font-size: 0.9em;
+}
+
+.card-title span {
+  font-size: 0.4em;
+  font-weight: 300;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+.card .btn:hover {
+  color: #614ef5 !important;
+}
+
+.text-blue li {
+  list-style: none;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.border-choice p {
+  font-size: 0.9em;
+}
+
+.card p:first-child {
+  font-size: 0.9em;
+}
+
+/* !term */
+.Term {
+  height: 120vh;
+}
+
+.Term .row-50:first-child {
+  background-color: transparent;
+  height: 55vh;
+}
+
+.Term .row-50:last-child {
+  background-color: #e7f6ff;
+  height: 75vh;
+}
+
+.credit,
+.policy {
+  font-size: 0.9em;
+}
+
+.foot {
+  padding-bottom: 80px;
+}
