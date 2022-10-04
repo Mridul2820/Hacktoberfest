@@ -42,7 +42,8 @@
 | Project Name     | Demo Link                                            | Source Code                                    | Author                                                     |
 | ---------------- | ---------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------- |
 | Simple Portfolio | [Demo](https://simple-portfolio-v3.netlify.app/)     | [Source Code](/projects/html/simple-portfolio) | [suryamsj](https://github.com/suryamsj)                    |
-| Project Slicing  | [Demo](https://muhammaderlangga99.github.io/shayna/) | [Source Code](/projects/html/project-slicing)  | [muhammad erlangga](https://github.com/muhammaderlangga99) |
+| Project Slicing  | [Demo](https://muhammaderlangga99.github.io/shayna/) | [Source Code](/projects/html/project-slicing)  | [muhammaderlangga99](https://github.com/muhammaderlangga99) |
+| Sports Ecommerce Website  | [Demo]() | [Source Code](/projects/html/sports_ecommerce_website)  | [happyhearthacker](https://github.com/happyhearthacker) |
 
 ## CSS
 
