@@ -42,7 +42,7 @@
 ## HTML
 | Project Name | Demo Link | Source Code | Author |
 | --- | --- | --- | --- |
-| Simple Portfolio | [Demo](https://simple-portfolio-v3.netlify.app/) | [Source Code](/projects/html/simple-portfolio/) | [Muhammad Surya J](https://github.com/suryamsj) |
+| Simple Portfolio | [Demo](https://simple-portfolio-v3.netlify.app/) | [Source Code](/projects/html/simple-portfolio) | [suryamsj](https://github.com/suryamsj)|
 
 ## CSS
 | Project Name | Demo Link | Source Code | Author |
