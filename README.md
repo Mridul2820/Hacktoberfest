@@ -67,7 +67,7 @@
 | RGB quiz   | [Demo](https://rgb-quize.vercel.app/)  | [Source Code](/projects/javascript/rgb%20quize)    | [vidhanshu](https://github.com/vidhanshu)
 | Meme generator   | [Demo](https://meme-generator-smoky.vercel.app/)  | [Source Code](/projects/javascript/meme-generator)    | [vidhanshu](https://github.com/vidhanshu)
 | weather-app V_2 | [Demo](https://mayank816.github.io/Hacktoberfest_Weacther_App/) | [Source Code](https://github.com/MAYANK816/Hacktoberfest2022/tree/weather_app_new/projects/javascript/weather-app%20V-2) | [MAYANK816](https://github.com/MAYANK816)|
-| Counter APP V_2 | [Demo](https://mayank816.github.io/Hacktoberfest_Weacther_App/) | [Source Code](https://github.com/MAYANK816/Hacktoberfest2022/tree/weather_app_new/projects/javascript/weather-app%20V-2) | [MAYANK816](https://github.com/MAYANK816)|
+| Counter APP V_2 | [Demo](https://mayank816.github.io/Counter-APP-V_2/) | [Source Code](https://github.com/MAYANK816/Hacktoberfest2022/tree/counterapp/projects/javascript/Counter%20APP%20V_2) | [MAYANK816](https://github.com/MAYANK816)|
 ## ⭐ Project Contributors
 <a href="https://github.com/Mridul2820/Hacktoberfest/graphs/contributors" align="center">
   <img src="https://contrib.rocks/image?repo=Mridul2820/Hacktoberfest" /> 
