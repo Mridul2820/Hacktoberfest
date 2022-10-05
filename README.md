@@ -60,4 +60,4 @@
 | Drum kit      | [Demo](https://prnvtripathi.github.io/drum-kit/)                                          | [Source Code](/projects/javascript/Drum-Set)       | [Pranav Tripathi](https://github.com/prnvtripathi)    |
 | Digital Clock | [Demo](https://Harry-dotc.github.io/digital-clock/)                                       | [Source Code](/projects/javascript/digital-clock/) | [Hardik Agarwal](https://github.com/Harry-dotc)       |
 | Weather App   | [Demo](https://adityeah2k.github.io/yet-another-weather-app/)                             | [Source Code](/projects/javascript/weather-app)    | [adityeah2k](https://github.com/adityeah2k)           |
-| weather-app V-2 | [Demo](https://mridul2820.github.io/CSS-Vanila-JS-Projects/Vanila-JS/fireworks/fire.html) | [Source Code](/projects/javascript/weather-app V-2) | [Mridul2820](https://github.com/Mridul2820)|
+| weather-app V-2 | [Demo](https://mayank816.github.io/Hacktoberfest_Weacther_App/) | [Source Code](/projects/javascript/weather-app V-2) | [MAYANK816](https://github.com/Mridul2820)|
