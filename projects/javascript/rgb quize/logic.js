@@ -21,9 +21,9 @@ const heart = document.querySelector(".animation");
 /* for comments */
 const FAILURE_COMMENT = ['You can do it! 😀', 'focus! 😯', 'you can!!!😄', 'try again!🥲']
 const SUCCESS_COMMENT = ['You Made it boi!😎', 'you are awesome!🥳', 'You just crack it!🤩', 'Yippy..!😍', 'success..!!🤑']
-const like = new Audio('../../assets/like.mp3')
-const win = new Audio("../../assets/win.mp3")
-const empty = new Audio("../../assets/empty.wav")
+const like = new Audio('assets/like.mp3')
+const win = new Audio("assets/win.mp3")
+const empty = new Audio("assets/empty.wav")
     /* starting game first time */
 startGame();
 
@@ -84,7 +84,7 @@ function give_failure_comment() {
 }
 
 function reset_comment() {
-    comment.innerHTML = `Welcome to <img src="../../assets/logo.svg" alt="RGBquize">`;
+    comment.innerHTML = `Welcome to <img src="assets/logo.svg" alt="RGBquize">`;
 }
 
 function set_score() {
