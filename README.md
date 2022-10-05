@@ -44,6 +44,8 @@
 | Simple Portfolio | [Demo](https://simple-portfolio-v3.netlify.app/)     | [Source Code](/projects/html/simple-portfolio) | [suryamsj](https://github.com/suryamsj)                    |
 | Project Slicing  | [Demo](https://muhammaderlangga99.github.io/shayna/) | [Source Code](/projects/html/project-slicing)  | [muhammaderlangga99](https://github.com/muhammaderlangga99) |
 | Sports Ecommerce Website  | [Demo]() | [Source Code](/projects/html/sports_ecommerce_website)  | [happyhearthacker](https://github.com/happyhearthacker) |
+| Medicine Reminder | [Demo]() | [Source Code](/projects/html/Medicine-Reminder/)  | [Chandu2000](https://github.com/Chandu2000) |
+| Pionner Market | [Demo](https://pionnermarket.netlify.app/) | [Source Code](/projects/html/Pionner_Market) | [khandelwalHarsh024](https://github.com/khandelwalHarsh24)|
 
 ## CSS
 
@@ -60,3 +62,14 @@
 | Drum kit      | [Demo](https://prnvtripathi.github.io/drum-kit/)                                          | [Source Code](/projects/javascript/Drum-Set)       | [Pranav Tripathi](https://github.com/prnvtripathi)    |
 | Digital Clock | [Demo](https://Harry-dotc.github.io/digital-clock/)                                       | [Source Code](/projects/javascript/digital-clock/) | [Hardik Agarwal](https://github.com/Harry-dotc)       |
 | Weather App   | [Demo](https://adityeah2k.github.io/yet-another-weather-app/)                             | [Source Code](/projects/javascript/weather-app)    | [adityeah2k](https://github.com/adityeah2k)           |
+| Tic Tac Toe Game   | [Demo](https://imnitesh21.github.io/Tic-Tac-Toe-/)                                   | [Source Code](/projects/javascript/Tic-Tac-Toe-Game)    | [Imnitesh21](https://github.com/Imnitesh21)           |
+|Calculator | [Demo](https://minhaj-313.github.io/Calculator_1/)                                        | [Source Code](/projects/javascript/Calculator%20minhaj-313)        | [minhaj-313](https://github.com/minhaj-313) |
+| RGB quiz   | [Demo](https://rgb-quize.vercel.app/)  | [Source Code](/projects/javascript/rgb%20quize)    | [vidhanshu](https://github.com/vidhanshu)
+| Meme generator   | [Demo](https://meme-generator-smoky.vercel.app/)  | [Source Code](/projects/javascript/meme-generator)    | [vidhanshu](https://github.com/vidhanshu)
+
+---
+## ⭐ Project Contributors
+<a href="https://github.com/Mridul2820/Hacktoberfest/graphs/contributors" align="center">
+  <img src="https://contrib.rocks/image?repo=Mridul2820/Hacktoberfest" /> 
+</a>
+

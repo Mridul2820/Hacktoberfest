@@ -1,0 +1,157 @@
+* {
+
+    margin:0px;
+
+    padding:0px;
+
+    background-color:rgb(20,20,20);
+
+    font-family: 'Original Surfer', cursive;
+
+    color:white;
+
+}
+
+body {
+
+    height:100vh;
+
+        background: linear-gradient(
+
+        #000000,
+
+        #353535,
+
+    );
+
+}
+
+.head {
+
+    background-color:#252525;
+
+    padding:0px;
+
+    color:#ffffff;
+
+    opacity:0;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 0 5px #151515;
+
+}
+
+.text {
+
+    background-color:#252525;
+
+    opacity:100;
+
+    text-shadow:1px 1px 1px grey;
+
+    font-size:25px;
+
+}
+
+#doc {
+
+    background-color:#252525;
+
+    font-size:25px;
+
+}
+
+.input-data {
+
+    margin:5vh;
+
+    color:white;
+
+}
+
+#time {
+
+    border:2px solid #ffffff;
+
+    color:#ffffff;
+
+    width:50vh;
+
+    height:5vh;
+
+    outline:none;
+
+}
+
+#med-name {
+
+    text-align:left;
+
+    padding:7px;
+
+    color:#fff;
+
+    border:2px solid #fff;
+
+    outline:none;
+
+}
+
+#detail {
+
+    width:90%;
+
+    color:white;
+
+    border:2px solid #fff;
+
+    outline:none;
+
+    padding:15px;
+
+}
+
+#clock {
+
+    color:white;
+
+    margin-top:5vh;
+
+    font-size:35px;
+
+}
+
+#button {
+
+    color:black;
+
+    outline:none;
+
+    padding:7px;
+
+    background-color:white;
+
+    border-radius:7px 0;
+
+}
+
+p {
+
+    padding:10px;
+
+    text-align:center;
+
+}
+
+.rem {
+
+    background-color:white;
+
+    padding:5px;
+
+    color:#000;
+
+}
