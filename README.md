@@ -64,3 +64,12 @@
 | Weather App   | [Demo](https://adityeah2k.github.io/yet-another-weather-app/)                             | [Source Code](/projects/javascript/weather-app)    | [adityeah2k](https://github.com/adityeah2k)           |
 | Tic Tac Toe Game   | [Demo](https://imnitesh21.github.io/Tic-Tac-Toe-/)                                   | [Source Code](/projects/javascript/Tic-Tac-Toe-Game)    | [Imnitesh21](https://github.com/Imnitesh21)           |
 |Calculator | [Demo](https://minhaj-313.github.io/Calculator_1/)                                        | [Source Code](/projects/javascript/Calculator%20minhaj-313)        | [minhaj-313](https://github.com/minhaj-313) |
+
+
+
+---
+## ⭐ Project Contributors
+<a href="https://github.com/Mridul2820/Hacktoberfest/graphs/contributors" align="center">
+  <img src="https://contrib.rocks/image?repo=Mridul2820/Hacktoberfest" /> 
+</a>
+
