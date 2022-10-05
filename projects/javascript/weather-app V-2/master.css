@@ -123,21 +123,24 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 9px;
+  background-color: white;
+  border-radius: 11px;
+  padding: 12px;
 text-align: center;
 text-transform: uppercase;
 }
 .history_div p{
   font-size: .5 rem;
   font-weight: 600;
-  color: #fff;
+  color: black;
+  
   margin: 0;
   padding: 0;
   line-height: 1.5;
 }
 .histories{
   display: flex;
-  background-color: #858585;
-  border-radius: 11px;
+  
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
