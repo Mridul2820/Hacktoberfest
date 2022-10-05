@@ -72,5 +72,3 @@
 <a href="https://github.com/Mridul2820/Hacktoberfest/graphs/contributors" align="center">
   <img src="https://contrib.rocks/image?repo=Mridul2820/Hacktoberfest" /> 
 </a>
-
-
