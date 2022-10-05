@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins';
+    user-select: none;
+}
+
+:root {
+    --primary: #1f1c1c;
+    --transition: all .3s ease-out;
+}
+
+i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-heart {
+    color: red;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* nav-bar-styling-start */
+
+nav {
+    background-color: var(--primary);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+nav .nav-menu {
+    display: flex;
+    max-width: 300px;
+    width: 50%;
+    min-width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+button {
+    padding: 8px 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 5px;
+}
+
+button:hover {
+    color: var(--primary);
+    background-color: white;
+}
+
+.replay button {
+    color: var(--primary);
+    background-color: white;
+    transition: var(--transition);
+}
+
+.open {
+    display: none !important;
+}
+
+@media (max-width:700px) {
+    .open {
+        display: block !important;
+    }
+    .menu-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        font-weight: 700;
+    }
+    nav .nav-menu {
+        max-width: none;
+        width: 100%;
+        min-width: none;
+        justify-content: none;
+        align-items: none;
+        display: block;
+        height: fit-content;
+        background-color: rgb(37, 37, 37);
+        left: 0;
+        top: -200px;
+        position: absolute;
+        transition: var(--transition);
+        z-index: -1 !important;
+    }
+    .active-menu {
+        top: 73px !important;
+    }
+    .replay {
+        border-radius: 0;
+    }
+    nav .nav-menu li button {
+        border: none;
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        padding: 20px;
+    }
+    nav .nav-menu li button:hover {
+        color: white;
+        background-color: rgb(49, 49, 49);
+    }
+}
+
+@media (min-width:701px) {
+    .replay button:hover {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+}
+
+
+/* nav-bar-styling-ending */
+
+
+/* question-component-styling-start */
+
+.question-component-container {
+    margin: auto;
+    display: block;
+}
+
+.question-container {
+    position: absolute;
+    top: 275px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.color-shower {
+    background-color: rgb(0, 204, 255);
+    min-height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.color-shower h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.play-again {
+    border: 2px solid black;
+    color: black;
+    display: block;
+    margin: 20px auto;
+    display: none;
+}
+
+.play-again:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.score-container {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: white;
+}
+
+.comment img {
+    margin-left: 10px;
+}
+
+.opt {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: var(--transition);
+}
+
+.opt-opacity-zero {
+    opacity: 0;
+}
+
+.opt4,
+.opt5,
+.opt6 {
+    display: none;
+}
+
+.options-component-container {
+    background-color: rgb(248, 248, 248);
+    padding: 80px 0px;
+    min-height: 350px;
+    height: 60vh;
+}
+
+.options-container {
+    width: fit-content;
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    grid-gap: 20px;
+}
+
+@media (min-width:701px) {
+    .replay button:hover {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    .question-container h4 {
+        font-size: 20px;
+    }
+}
+
+
+/* question-component-styling-ending */
+
+
+/* extra stuff */
+
+.animation {
+    display: block;
+    font-size: 0px;
+    animation: none;
+    position: absolute;
+    left: -20px;
+    right: 0px;
+    margin: auto;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+        transform: translateY(0px);
+    }
+    20% {
+        font-size: 10px
+    }
+    50% {
+        font-size: 100px;
+    }
+    80% {
+        opacity: 1;
+        font-size: 40px;
+    }
+    100% {
+        opacity: 0;
+        font-size: 100px;
+        transform: translateY(-400px);
+        display: none;
+    }
+}
