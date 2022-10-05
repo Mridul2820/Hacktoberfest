@@ -7,7 +7,6 @@ document.getElementById('increment').addEventListener('click', () => {
         });
       
 });
-
 document.getElementById('decrement').addEventListener('click', () => {
     if(document.getElementById('count').innerText > 0){
  
