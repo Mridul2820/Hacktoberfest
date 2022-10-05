@@ -1,0 +1,49 @@
+
+/* logo */
+.logo1 h3{
+    font-size: 16px;
+}
+
+/* .logo{
+    position: relative;
+    left: 270px;
+}
+header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position:relative;
+    right: 5px;
+}
+
+.navbar li{
+    margin: 3px 11px;
+} */
+
+.request{
+    width:73rem;
+}
+
+header{
+    width: 63rem;
+}
+.container{
+    width: 64rem;
+}
+footer{
+    height: 8rem;
+    align-items:center;
+    
+}
+
+.dry::after{
+    height: 44rem;
+
+}
+
+body{
+    height: 100rem;
+}
