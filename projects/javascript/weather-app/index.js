@@ -6,6 +6,7 @@ const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 
+//You have to put your API KEY
 const apiKey = "<put your api key here>";
 
 form.addEventListener("submit", e => {
