@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Profile Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flexcontainer">
+    <div class="main">
+        <form class="search">
+            <label for="searchName" class="font-light text-slate-100 font-medium">Enter Github username</label><br>
+            <!--        <label for="searchName" class="font-light text-slate-100 font-medium text-sky-400/100">Enter Github username</label><br>-->
+            <input type="text" name="searchName" id="searchName" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-pink-500 invalid:text-pink-600
+      focus:invalid:border-pink-500 focus:invalid:ring-pink-500 caret-color: #fdba74"><br>
+            <div class="centrebutton">
+                <!--        <button type="submit" class="btn submitbutton btn-danger my-1">submit</button>-->
+                <!--            <input class="btn submitbutton btn-secondary" type="submit" value="Submit">-->
+                <button class="btn bg-primary btn-primary" type="submit">submit</button>
+
+            </div>
+        </form>
+
+        <div class="spinup my-2">
+            <div class="spinner-border text-info" role="status">
+
+            </div>
+
+        </div>
+
+        <div class="card--component my-3">
+            <div class="card" style="width: 19rem;">
+                <!--            <img src="#" class="card-img-top popper" alt="...">-->
+
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item profile light font-sm lead text-base"><a href="#" class="linkname">profile Name
+                    </a></li>
+                    <li class="list-group-item place light font-sm lead text-base">A second item</li>
+                    <li class="list-group-item current light font-sm lead text-base">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link picRepos">Card link</a>
+                    <a href="#" class="card-link picRepos">Another link</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="error--Component d-none my-2">
+
+            <div class="imageGithub">
+                <img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" alt="">
+
+            </div>
+
+            <p class="mx-2 textCenter text-secondary fw-bold">OOPS!! User Not Found</p>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="hub.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+
+    width: 100vw;
+    height: auto;
+    /*z-index: 9;*/
+    background: url("https://github.blog/wp-content/uploads/2020/12/102393310-07478b80-3f8d-11eb-84eb-392d555ebd29.png?resize=1200%2C630") no-repeat;
+    /*background: url("https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif") no-repeat;*/
+
+    overflow: hidden;
+    background-size: cover;
+    /*background-size:contain;*/
+}
+.flexcontainer{
+
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+
+}
+#searchName{
+
+    padding: 5px;
+    border: 2px solid sandybrown;
+    margin-top: 10px;
+    max-width: 27rem;
+    min-width: 14rem;
+
+}
+.popper
+{
+    /*width: 200px;!important;*/
+    height: 200px;!important;
+}
+.card--component{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 951px) {
+    body {
+        /*background-color: blue;*/
+        background-size: contain;
+    }
+
+}
+@media (max-width: 540px) {
+    #searchName{
+        max-width: 12rem;
+    }
+    .card--component{
+        width: 300px;
+    }
+
+}
+/*.card--component{*/
+/*    display: none;*/
+/*}*/
+
+.spinup,
+.centrebutton{
+    display: flex;
+    justify-content: center;
+}
+
+.spinup,.card--component{
+    display: none;
+}
+.card{
+    max-width: 504px;
+}
+.popper{
+    width: auto;
+    overflow: hidden;
+    /*height: 200px;*/
+
+    height: auto;
+}
+
+.error--Component{
+    display:flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+
+}
+li{
+    list-style: none;
+}
+
+.imageGithub{
+    max-width: 400px;
+    max-height: 400px;
+}
