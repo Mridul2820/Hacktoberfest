@@ -47,7 +47,8 @@
 | Sports Ecommerce Website  | [Demo]() | [Source Code](/projects/html/sports_ecommerce_website)  | [happyhearthacker](https://github.com/happyhearthacker) |
 | Medicine Reminder | [Demo]() | [Source Code](/projects/html/Medicine-Reminder/)  | [Chandu2000](https://github.com/Chandu2000) |
 | Pionner Market | [Demo](https://pionnermarket.netlify.app/) | [Source Code](/projects/html/Pionner_Market) | [khandelwalHarsh024](https://github.com/khandelwalHarsh24)|
-| Portfolio | [Demo](https://vvswps.github.io/react-portfolio/#) | [Source Code](projects\html\react-portfolio-master) | [vvswps](https://github.com/vvswps)
+| Portfolio | [Demo](https://vvswps.github.io/react-portfolio/#) | [Source Code](projects\html\react-portfolio-master) | [vvswps](https://github.com/vvswps) |
+| vanilla-portfo | [Demo](https://muanra217.github.io/) | [Source Code](https://github.com/Muanra217/Muanra217.github.io) | [Muanra217](https://github.com/Muanra217) |
 
 ## CSS
 
