@@ -1,0 +1,14 @@
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background:url(./image2.jpg);
+    background-size:cover;
+    /* position:relative; */
+}
+
+h4{
+    color:#fff
+}
